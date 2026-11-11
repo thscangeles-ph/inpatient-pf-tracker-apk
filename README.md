@@ -3,7 +3,7 @@
 APK lang ang nandito (walang source code at walang patient data).
 
 ## I-download
-**[InpatientPFTracker-v1.3.1.apk](https://github.com/thscangeles-ph/inpatient-pf-tracker-apk/releases/latest/download/InpatientPFTracker.apk)**
+**[InpatientPFTracker-v1.3.2.apk](https://github.com/thscangeles-ph/inpatient-pf-tracker-apk/releases/latest/download/InpatientPFTracker.apk)**
 
 ## I-install
 1. I-download ang APK gamit ang browser ng phone (Android 8.0 o mas bago).
