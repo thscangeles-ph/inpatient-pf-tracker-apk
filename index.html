@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="fil">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inpatient PF Tracker</title>
+<meta name="description" content="I-download ang Android installer (APK) ng Inpatient PF Tracker.">
+<meta name="robots" content="noindex">
+<style>
+  :root {
+    --bg: #f4f7f6;
+    --card: #ffffff;
+    --text: #17302b;
+    --muted: #5b6f6a;
+    --line: #dde6e3;
+    --accent: #0f766e;
+    --accent-hover: #0b5f58;
+    --accent-text: #ffffff;
+    --soft: #e6f3f1;
+    --warn-bg: #fff7e6;
+    --warn-line: #f1d79b;
+    --warn-text: #6b4a00;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1716;
+      --card: #172220;
+      --text: #e5efec;
+      --muted: #9db2ad;
+      --line: #263532;
+      --accent: #2bb3a5;
+      --accent-hover: #3cc7b8;
+      --accent-text: #06201d;
+      --soft: #1c2d2a;
+      --warn-bg: #2a2313;
+      --warn-line: #5a4a1f;
+      --warn-text: #f0d48f;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 560px; margin: 0 auto; padding: 32px 16px 48px; }
+  .hero { text-align: center; margin-bottom: 24px; }
+  .icon {
+    width: 72px; height: 72px; margin: 0 auto 16px;
+    border-radius: 18px; background: var(--accent); color: var(--accent-text);
+    display: grid; place-items: center;
+  }
+  h1 { font-size: 1.6rem; line-height: 1.2; margin: 0 0 6px; }
+  .sub { color: var(--muted); margin: 0; }
+  .card {
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: 16px; padding: 20px; margin-bottom: 16px;
+  }
+  .download {
+    display: flex; align-items: center; justify-content: center; gap: 10px;
+    width: 100%; padding: 16px 20px; border-radius: 12px;
+    background: var(--accent); color: var(--accent-text);
+    font-size: 1.1rem; font-weight: 650; text-decoration: none;
+  }
+  .download:hover { background: var(--accent-hover); }
+  .meta {
+    display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 14px;
+    margin-top: 12px; color: var(--muted); font-size: .9rem;
+  }
+  h2 { font-size: 1.05rem; margin: 0 0 12px; }
+  ol { margin: 0; padding-left: 0; list-style: none; counter-reset: s; }
+  ol li {
+    counter-increment: s; position: relative;
+    padding: 0 0 12px 40px; min-height: 28px;
+  }
+  ol li:last-child { padding-bottom: 0; }
+  ol li::before {
+    content: counter(s); position: absolute; left: 0; top: 0;
+    width: 28px; height: 28px; border-radius: 50%;
+    background: var(--soft); color: var(--accent);
+    display: grid; place-items: center; font-weight: 700; font-size: .9rem;
+  }
+  ul { margin: 0; padding-left: 20px; }
+  ul li { margin-bottom: 8px; }
+  ul li:last-child { margin-bottom: 0; }
+  .warn {
+    background: var(--warn-bg); border-color: var(--warn-line); color: var(--warn-text);
+  }
+  .warn h2 { color: inherit; }
+  footer { text-align: center; color: var(--muted); font-size: .85rem; margin-top: 24px; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <header class="hero">
+    <div class="icon" aria-hidden="true">
+      <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="4" y="3" width="16" height="18" rx="2"/>
+        <path d="M9 3v2h6V3"/>
+        <path d="M12 9v6M9 12h6"/>
+      </svg>
+    </div>
+    <h1>Inpatient PF Tracker</h1>
+    <p class="sub">Offline na tracker ng professional fees para sa Android</p>
+  </header>
+
+  <section class="card">
+    <a class="download" href="https://github.com/thscangeles-ph/inpatient-pf-tracker-apk/releases/latest/download/InpatientPFTracker.apk">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M12 4v11"/><path d="m7 10 5 5 5-5"/><path d="M5 20h14"/>
+      </svg>
+      I-download ang APK
+    </a>
+    <div class="meta">
+      <span>Version 1.3</span><span>·</span><span>808 KB</span><span>·</span><span>Android 8.0 o mas bago</span>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Paano i-install</h2>
+    <ol>
+      <li>I-tap ang <strong>I-download ang APK</strong> gamit ang browser ng phone (hal. Chrome).</li>
+      <li>Buksan ang na-download na file, mula sa notification o sa <strong>Downloads</strong>.</li>
+      <li>Kapag tinanong, payagan ang <strong>Install unknown apps</strong> para sa browser o Files app.</li>
+      <li>Kung may babala ang Play Protect, piliin ang <strong>Install anyway</strong>. Normal ito sa app na wala sa Play Store.</li>
+      <li>Buksan ang <strong>Inpatient PF Tracker</strong> mula sa listahan ng apps.</li>
+    </ol>
+  </section>
+
+  <section class="card warn">
+    <h2>Bago mag-update</h2>
+    <p style="margin:0">Kapag may bagong version, mag-<strong>Export backup</strong> muna sa loob ng app. Kung ayaw tanggapin ng phone ang update, i-uninstall ang luma, i-install ang bago, tapos i-<strong>Import backup</strong>.</p>
+  </section>
+
+  <section class="card">
+    <h2>Tungkol sa data</h2>
+    <ul>
+      <li>Gumagana ang app nang <strong>walang internet</strong>. Wala itong cloud o sync.</li>
+      <li>Sa phone lang naka-save ang records. Mabubura ang mga ito kapag in-uninstall ang app.</li>
+      <li>Hindi naka-encrypt ang backup file. Itago ito nang maayos at huwag ipadala sa hindi secure na apps.</li>
+    </ul>
+  </section>
+
+  <footer>
+    Para sa personal na gamit · Hindi ito galing sa Google Play
+  </footer>
+</main>
+</body>
+</html>
